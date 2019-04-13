@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<title>Home</title>
+	<link href="css/normalize.css">
+	<link rel="stylesheet" href="css/style.css">
+	<link href="https://fonts.googleapis.com/css?family=Roboto:400,500" rel="stylesheet">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+</head>
+
+<body>
+	<header class="header">
+		<div class="container_header">
+			<div class="panel">
+				<div class="panel_logo">
+					<img src="img/logo.png" alt="" class="logo">
+					<img src="img/it_room.png" alt="">
+					<p class="header_title">Форум для IT- специалистов</p>
+				</div>
+				<div class="search">
+					<form>
+						<input type="text" placeholder="Поиск вопроса, темы по сайту">
+					</form>
+				</div> <a href="#" class="fas fa-search"></a>
+				<a href="#" class="fas fa-search"></a>
+				<a href="#" class="rules">Правила форума</a>
+				<p class="user_id">Айтишка Гикбрейнов</p>
+				<img src="img/user_avatar.png" class="user_avatar">
+			</div>
+		</div>
+	</header>
+	<div class="backgroun_color">
+		<section class="content">
+			<div class="flex">
+				<div class="no_name">
+					<h2 class="create_new_topic">Создание новой темы</h2>
+					<div class="create_new_topic_form">
+						<div class="create_new_topic_container">
+							<div class="create_new_topic_flex">
+								<p class="create_new_topic_text">Название темы</p>
+								<form>
+									<input type="text">
+								</form>
+							</div>
+							<div class="create_new_topic_flex">
+								<p class="create_new_topic_text">Теги</p>
+								<form>
+									<input type="text">
+								</form>
+							</div>
+							<div class="create_new_topic_flex_textarea">
+								<p class="create_new_topic_text_textarea">Текст сообщения</p>
+								<textarea name="message" placeholder="Введите текст сообщения" required></textarea>
+							</div>
+							<div class="radio_flex">
+								<input type="checkbox" class="checkbox">
+								<p class="create_new_topic_text_radio">Я внимательно ознакомился и согласен соблюдать <a href="#">правила форума.</a></p>
+							</div>
+							<div class="radio_flex">
+								<input type="checkbox" class="checkbox">
+								<p class="create_new_topic_text_radio"> Я согласен с тем, что модераторы могут удалять темы и комментарии<br> за нарушение правил без объяснения причин.</p>
+							</div>
+							<div class="btn_flex"><a href="#" class="btn_post_topic">Опубликовать тему</a>
+								<a href="#" class="btn_cancel">Отмена</a></div>
+						</div>
+					</div>
+				</div>
+				<div class="right_panel">
+					<div class="right_panel_conteiner">
+						<p class="new_topics">Новые темы</p>
+						<div class="right_panel_topic">
+							<img src="img/avatar_1.png">
+							<p class="right_panel_text">Можно ли автоматически прове...</p>
+							<p class="answers_right_panel">3 ответа</p>
+						</div>
+						<div class="right_panel_topic">
+							<img src="img/avatar_2.png">
+							<p class="right_panel_text">Как вы верстаете?</p>
+							<p class="answers_right_panel">3 ответа</p>
+						</div>
+						<div class="right_panel_topic">
+							<img src="img/avatar_3.png">
+							<p class="right_panel_text"> Хочу начать изучать Laravel? отв...</p>
+							<p class="answers_right_panel">3 ответа</p>
+						</div>
+						<div class="right_panel_topic">
+							<img src="img/avatar_4.png">
+							<p class="right_panel_text">SEO-оптимизация с нуля. Ничего...</p>
+							<p class="answers_right_panel">3 ответа</p>
+						</div>
+						<div class="right_panel_topic">
+							<img src="img/avatar_5.png">
+							<p class="right_panel_text">Как вы разрабатываете Rest API?</p>
+							<p class="answers_right_panel">3 ответа</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+	</div>
+	<footer class="footer">
+		<div class="container_footer">
+			<div class="content_footer">
+				<p class="footer_text">&copy; 2018 “IT-room” Форум для IT-специалистов</p>
+				<p class="footer_text">Контакты: 8-800-800-88-88</p>
+				<div class="soc">
+					<a href="#" class="fab fa-vk"></a>
+					<a href="#" class="fab fa-facebook-f"></a>
+					<a href="#" class="fab fa-twitter"></a>
+					<a href="#" class="fab fa-instagram"></a>
+					<a href="#" class="fab fa-telegram-plane"></a>
+					<a href="#" class="fab fa-youtube"></a>
+				</div>
+			</div>
+		</div>
+	</footer>
+</body></html>
